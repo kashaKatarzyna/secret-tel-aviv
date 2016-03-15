@@ -24,7 +24,7 @@ a{
 
 nav {
   background-color: #333333;
-  position: fixed;
+ /* position: fixed;*/
   width: 100%;
   top: 0;
 }
@@ -41,8 +41,14 @@ nav ul {
   margin: 0 auto;
   -webkit-transition: width 2s, height 4s;
   transition: width 2s, height 4s;
+
 }
- 
+
+/*.picture{
+  position: fixed;
+  width: 100%;
+}
+ */
 
 .hero-image:hover{
   background-color: yellow;
@@ -58,4 +64,38 @@ nav ul {
   padding-top: 100px;
 
 
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+section {
+  background-color: #ddd;
+}
+
+.food img {
+  width: 100%;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.column-inner {
+  padding: 20px;
 }
